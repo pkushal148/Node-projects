@@ -1,0 +1,30 @@
+//npm installation and node concepts
+
+
+npm init
+npm i express
+
+
+
+const express=require("express");
+const app=express();
+const bodyParser=require("body-parser");
+
+
+
+app.use(bodyParser.urlencoded({extended:true}));
+
+///
+///
+////
+///
+
+app.listen(3000,function(){
+    console.log("app listening at 3000");
+})
+
+
+
+
+
+for running nodemon app.js
